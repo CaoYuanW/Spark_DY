@@ -30,7 +30,7 @@ object TestMapPartitions2 {
         val name: String = rs.getString(1)
         val age: Int = rs.getInt(2)
         line + "," + name + "," + age
-      }).var
+      })
     })
     //foreach
     result.foreach(println)
