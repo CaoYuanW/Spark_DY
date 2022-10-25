@@ -34,5 +34,7 @@ object TestMapPartitions2 {
     })
     //foreach
     result.foreach(println)
+    //stop
+    sc.stop()
   }
 }
